@@ -60,7 +60,7 @@
                         <a href="#experience">Work Experience</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#contact">Contact Information</a>
+                        <a href="#contactinfo">Contact Information</a>
                     </li>
                 </ul>
             </div>
@@ -127,6 +127,27 @@
             </div>
         </div>
     </section>
+    
+    <!-- Contact Information Section -->
+    <section class="success" id="contactinfo">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Contact Information</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-4">
+                    <p>Name: Tameem Haj-Ibrahim</p>
+                    <p>e-Mail: tameemhajibrahim@gmail.com</p>
+                    <p>Mobile: (215) 421-9830</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
     <!-- Page Content -->
     <div class="container">
 
@@ -144,6 +165,14 @@
 
     </div>
     <!-- /.container -->
+    
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+    
 <!-- Portfolio Modals -->
     <div class="portfolio-modal modal fade" id="highschool" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
