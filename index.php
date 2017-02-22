@@ -173,7 +173,7 @@
         </div>
     </section>
     
-    <!-- Contact Information Section -->
+    <!-- Work Experience Section -->
     <section id="experience">
         <div class="container">
             <div class="row">
@@ -183,10 +183,45 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-lg-offset-4">
-                    <p>Name: Tameem Haj-Ibrahim</p>
-                    <p>e-Mail: tameemhajibrahim@gmail.com</p>
-                    <p>Mobile: (215) 421-9830</p>
+                <div class="col-sm-4">
+                  <div class="text-center employer">
+                    <strong><h3>New Jersey Institute of Technology</h3></strong>
+                  </div>
+                  <br>
+                  <ul>
+                    <strong>
+                    <li>Role:               Teaching Assistant</li>
+                    <li>Location:           Newark, NJ</li>
+                    <li>Employment Dates:   January 2017 - current</li>
+                    </strong>
+                  </ul>
+                </div>
+                <div class="col-sm-4">
+                  <div class="text-center employer">
+                    <strong><h3>Candlewood Management Service, Inc.</h3></strong>
+                  </div>
+                  <br>
+                  <ul>
+                    <strong>
+                    <li>Role:               Lifeguard</li>
+                    <li>Location:           Howell, NJ</li>
+                    <li>Employment Dates:   August 2016 - current</li>
+                    </strong>
+                  </ul>
+                </div>
+                <div class="col-sm-4">
+                  <div class="text-center employer">
+                    <strong><h3>The Tutoring Center</h3></strong>
+                  </div>
+                  <br>
+                  <br>
+                  <ul>
+                    <strong>
+                    <li>Role:               Tutor</li>
+                    <li>Location:           Franklin Park, NJ</li>
+                    <li>Employment Dates:   June 2015 - September 2015</li>
+                    </strong>
+                  </ul>
                 </div>
             </div>
         </div>
