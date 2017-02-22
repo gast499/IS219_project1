@@ -51,7 +51,7 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#education">Education</a>
+                        <a href="#portfolio">Education</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#interests">Interests</a>
@@ -84,7 +84,8 @@
             </div>
         </div>
     </header>
-    
+
+<!-- Education Section -->
     <section id="portfolio">
         <div class="container">
             <div class="row">
@@ -123,6 +124,69 @@
                         </div>
                         <img src="img/njit.jpg" class="img-responsive" alt="">
                     </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Interests Section -->
+    <section class="success" id="interests">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Interests</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#webdev" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/web.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#gamedev" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/game.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#database" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/database.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Information Section -->
+    <section id="experience">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Work Experience</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-4">
+                    <p>Name: Tameem Haj-Ibrahim</p>
+                    <p>e-Mail: tameemhajibrahim@gmail.com</p>
+                    <p>Mobile: (215) 421-9830</p>
                 </div>
             </div>
         </div>
@@ -173,7 +237,7 @@
         </a>
     </div>
     
-<!-- Portfolio Modals -->
+<!-- Education Modals -->
     <div class="portfolio-modal modal fade" id="highschool" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -271,6 +335,76 @@
                                     </strong>
                                 </li>
                             </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="webdev" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Web Development</h2>
+                            <hr class="star-primary">
+                            <img src="img/web.png" class="img-responsive img-centered" alt="">
+                            <p>Created Websites using HTML, CSS, JS, PHP</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="gamedev" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Game Development</h2>
+                            <hr class="star-primary">
+                            <img src="img/game.png" class="img-responsive img-centered" alt="">
+                            <p>Created some basic games in Python and Unity</p>
+                            <p>Created basic 3D models in Blender</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="database" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Database Management</h2>
+                            <hr class="star-primary">
+                            <img src="img/database.jpg" class="img-responsive img-centered" alt="">
+                            <p>Managed databases using PHP and MySQL</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
